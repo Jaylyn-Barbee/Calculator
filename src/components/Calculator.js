@@ -30,7 +30,7 @@ function handleClick(e){
 export default function Calculator() {
     return (
         <section id="calc">
-            <h1 id="display"></h1>
+            <h1 id="display"> </h1>
             <div class="rows">
                 <button className="short" onClick={handleClick} value="(">(</button>
                 <button className="short" onClick={handleClick} value=")">)</button>
